@@ -1,30 +1,16 @@
-1.  **Clonar o repositório:**
-    ```bash
-    git clone [https://github.com/Edg4rjr1/qa-junior-playwright-api.git](https://github.com/Edg4rjr1/qa-junior-playwright-api.git)
-    ```
 
-2.  **Entrar na pasta do projeto:**
-    ```bash
-    cd qa-junior-playwright-api
-    ```
+1.  Clonar o repositório
+    `git clone https://github.com/Edg4rjr1/qa-junior-playwright-api.git`
 
-3.  **Instalar as dependências do projeto:**
-    ```bash
-    npm install
-    ```
+2.  Entrar na pasta:
+    `cd qa-junior-playwright-api`
 
-4.  **Instalar o pacote dotenv:**
-    ```bash
-    npm install dotenv
-    ```
+3.  Instalar as dependências:
+    `npm install`
 
-5.  **Adicionar a chave da API no arquivo `.env`:**
-    Crie um arquivo chamado `.env` e adicione a linha:
-    ```
-    API_TOKEN=SEU_TOKEN_AQUI
-    ```
 
-6.  **Rodar os testes com Playwright:**
-    ```bash
-    npx playwright test
-    ```
+5.  Criar um arquivo `.env` na raiz do projeto e adicione sua API token:
+    `API_TOKEN=SEU_TOKEN_AQUI`
+
+6.  Rodar os testes:
+    `npx playwright test`
