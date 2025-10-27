@@ -9,8 +9,15 @@
     `npm install`
 
 
-5.  Criar um arquivo `.env` na raiz do projeto e adicione sua API token:
+4.  Criar um arquivo `.env` na raiz do projeto e adicione sua API token:
     `API_TOKEN=SEU_TOKEN_AQUI`
 
-6.  Rodar os testes:
+5.  Rodar os testes:
     `npx playwright test`
+
+#TESTES
+
+ #tests/ – Contém os arquivos de teste divididos por recurso:
+  1. users.spec.js – Testes de CRUD de usuários.
+  2. posts.spec.js – Testes de criação de posts e comentários.
+  3. comments.spec.js – Testes de comentários com cenários positivos e negativos.
